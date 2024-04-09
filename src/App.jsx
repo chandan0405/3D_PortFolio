@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
+ import { ToastContainer } from "react-toastify";
 const App = () => {
   return (
     <main className="bg-slate300/20">
@@ -17,6 +18,7 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
+      <ToastContainer />
     </main>
   );
 };
