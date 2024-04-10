@@ -19,6 +19,7 @@ const Contact = () => {
   const handleSubmt = async (e) => {
     e.preventDefault();
     setIsLoading(true);
+    setcurrentAnimation("hit")
     try {
       await emailjs.send(
         import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
@@ -34,19 +35,22 @@ const Contact = () => {
       );
       setIsLoading(false);
       toast.success("Email Sent Successfully");
+      setForm({name:"", email:"", message:""});
+      setcurrentAnimation("idle")
     } catch (error) {
       toast.error(error.message);
       console.log("Error Found", error.message);
     }
   };
-  const handBlur = (e) => {};
-  const handlFocus = (e) => {};
+  const handBlur = (e) => setcurrentAnimation("idle");
+  const handlFocus = (e) => setcurrentAnimation("walk");
+
+
   return (
     <section className="flex lg:flex-row flex-col max-container relative">
       <div className="flex-1 min-w-[50%] flex flex-col ">
         <h1 className="head-text">Get In touch </h1>
         <form
-          action=""
           className="w-full flex flex-col gap-7 mt-4"
           onSubmit={handleSubmt}
         >
@@ -102,6 +106,7 @@ const Contact = () => {
           <ambientLight intensity={0.5}/>
           <Suspense fallback={<Loader />}>
             <Fox
+            currentAnimation={currentAnimation}
               position={[0.5, 0.35, 0]}
               rotation={[12.6, -0.6, 0]}
               scale={[0.5, 0.5, 0.5]}

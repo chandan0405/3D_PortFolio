@@ -67,5 +67,3 @@ export function Fox({ currentAnimation, ...props }) {
     </group>
   );
 }
-
-useGLTF.preload(scene);
