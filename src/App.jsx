@@ -8,7 +8,7 @@ import Contact from "./pages/Contact";
  import { ToastContainer } from "react-toastify";
 const App = () => {
   return (
-    <main className="bg-slate300/20">
+    <main className="bg-slate300/20 h-[100vh]">
       <Router>
         <Navbar />
         <Routes>
