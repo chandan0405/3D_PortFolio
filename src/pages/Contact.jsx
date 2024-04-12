@@ -47,7 +47,7 @@ const Contact = () => {
 
 
   return (
-    <section className="flex lg:flex-row flex-col max-container relative">
+    <section className="flex lg:flex-row flex-col max-container relative h-[100vh]">
       <div className="flex-1 min-w-[50%] flex flex-col ">
         <h1 className="head-text">Get In touch </h1>
         <form

@@ -97,8 +97,8 @@ const About = () => {
           </VerticalTimeline>
         </div>
       </div>
-      <hr className="border-slate-500" />
-      <CTA />
+      <hr className="border-slate-200" />
+      {/* <CTA /> */}
     </section>
   );
 };
