@@ -16,8 +16,8 @@ const About = () => {
       </h1>
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
-          Software Engineer based in Pune, specilizating in Frontend Development
-          or UI development.
+          Frontend Developer/Ui Developer based in India, specilization in
+          Javascript, React, Redux and Tailwind Css
         </p>
       </div>
       <div className="py-10 flex flex-col">
