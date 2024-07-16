@@ -121,6 +121,28 @@ export const projects = [
   {
     iconUrl: movie,
     theme: "btn-back-black",
+    name: "Shopmate",
+    description: "Developed a responsive e-commerce web application using React, Redux, Axios, and Bootstrap.\
+    The app fetches product data from an API and displays it in a card format, allowing users to view detailed \
+    product information, easily navigate, manipulate products in their cart, and use product filtering features for a seamless shopping experience.",
+    link: "https://github.com/chandan0405/shopmate_shopping_web_Application",
+
+  },
+  {
+    iconUrl: search,
+    theme: "btn-back-blue",
+    name: "Anime searching web Application",
+    description:
+      "I designed and developed a responsive web app using React for searching anime.\
+       The app fetches data from an API based on user input, incorporates pagination for efficiency, \
+       and uses a debouncing mechanism to minimize network requests. It works seamlessly across all devices \
+       and highlights the best matching anime based on user searches."
+    ,
+    link: "https://github.com/chandan0405/anime-search-application",
+  },
+  {
+    iconUrl: movie,
+    theme: "btn-back-black",
     name: "Flick Fusion streaming website",
     description:
       "Developing a responsive web application using React, NextJS, facilitating Authentication and Token Storage. It is similar to Netflix app ",
