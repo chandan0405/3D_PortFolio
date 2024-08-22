@@ -17,6 +17,8 @@ import {
   typescript,
   search,
   movie,
+  zustand,
+  jest
 } from "../assets/icons";
 
 export const skills = [
@@ -43,6 +45,11 @@ export const skills = [
   {
     imageUrl: redux,
     name: "Redux",
+    type: "State Management",
+  },
+  {
+    imageUrl: zustand,
+    name: "Zustand",
     type: "State Management",
   },
   {
@@ -80,6 +87,11 @@ export const skills = [
     imageUrl: nextjs,
     name: "Next.js",
     type: "Frontend",
+  },
+  {
+    imageUrl: jest,
+    name: "Jest",
+    type: "Component testing library",
   },
 ];
 
@@ -121,6 +133,18 @@ export const projects = [
   {
     iconUrl: movie,
     theme: "btn-back-black",
+    name: "Calories-counter-webapp",
+    description: "Developed a calories counter webapp web application using Nextjs, CSS, Bootstrap, Redux toolkit, Axios, and Edamam API.\
+    This app designed to help users track their daily caloric intake, users to search for food items, view nutritional information,\
+    and log their meals throughout the day. Users can log meals for breakfast, lunch, and dinner by selecting or searching for food items.\
+    Implements a debounced search to minimize re-rendering and API calls while typing,Persists user data across sessions, allowing for seamless tracking over time.\
+    for a seamless shopping experience.",
+    link: "https://github.com/chandan0405/calories_counter_using_Nextjs",
+
+  },
+  {
+    iconUrl: movie,
+    theme: "btn-back-black",
     name: "Shopmate",
     description: "Developed a responsive e-commerce web application using React, Redux, Axios, and Bootstrap.\
     The app fetches product data from an API and displays it in a card format, allowing users to view detailed \
@@ -143,25 +167,10 @@ export const projects = [
   {
     iconUrl: movie,
     theme: "btn-back-black",
-    name: "Flick Fusion streaming website",
+    name: "CineStream streaming website",
     description:
       "Developing a responsive web application using React, NextJS, facilitating Authentication and Token Storage. It is similar to Netflix app ",
-    link: "https://github.com/chandan0405",
+    link: "https://github.com/chandan0405/cinestream-web-application",
   },
-  {
-    iconUrl: movie,
-    theme: "btn-back-red",
-    name: "Movie Store",
-    description:
-      "Developed a web application that give you latest movies and trendies movies Integrated with the moviedb API to provide movie information and search functionality",
-    link: "https://github.com/chandan0405",
-  },
-  {
-    iconUrl: search,
-    theme: "btn-back-blue",
-    name: "Image searching web Application",
-    description:
-      "Designed and built a web app for finding the searching the image, Developed using HTML, CSS, AND JS. Integrated with Splash phto API to search the images",
-    link: "https://github.com/chandan0405",
-  },
+  
 ];

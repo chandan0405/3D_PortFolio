@@ -28,6 +28,8 @@ import soundon from './soundon.png'
 import soundoff from './soundoff.png'
 import search from './search.svg'
 import movie from './movieicon.svg'
+import zustand from "./zustand.svg";
+import jest from "./Jest.svg";
 
 export {
   css,
@@ -35,6 +37,7 @@ export {
   git,
   github,
   html,
+  jest,
   javascript,
   mongodb,
   motion,
@@ -43,6 +46,7 @@ export {
   nodejs,
   react,
   redux,
+  zustand,
   sass,
   tailwindcss,
   typescript,
