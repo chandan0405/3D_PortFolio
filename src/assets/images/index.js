@@ -4,7 +4,8 @@ import shopify from './shopify.png'
 import starbucks from './starbucks.png'
 import tesla from './tesla.png'
 import logo from './logo.svg'
-import intelli from './intelli.png'
+import intelli from './intelli_logo.png'
+import chainscore_img from "./chainscorehq_logo.jpeg";
 
 export {
     hero,
@@ -13,5 +14,7 @@ export {
     starbucks,
     tesla,
     logo,
-    intelli
+    intelli,
+    chainscore_img
+
 }

@@ -26,7 +26,7 @@ const HomeInfo = ({ currentStage }) => {
     2: (
       <InfoBox
         text={
-          "I am working for mnc and owned many skills in frontend development"
+          "I am currently working in a startup and have worked for an MNC too. I have a good understanding of frontend skills."
         }
         link={"/about"}
         btnText={"Learn more"}

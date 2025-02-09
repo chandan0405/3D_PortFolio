@@ -17,7 +17,7 @@ const About = () => {
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
           Frontend Developer/Ui Developer based in India, specilization in
-          Javascript, React, Redux and Tailwind Css
+          Javascript, Reactjs, NextJs, TypeScript, Jest, ReduxToolkit
         </p>
       </div>
       <div className="py-10 flex flex-col">
@@ -41,8 +41,7 @@ const About = () => {
         <h3 className="subhead-text">My work Experience </h3>
         <div className="mt-5 flex flex-col gap-3 text-slate-500">
           <p>
-            Software Engineer based in Pune, specilizating in Frontend
-            Development or UI development.
+          Software Engineer specializing in Frontend Development and UI Development, with experience in both startups and MNCs.
           </p>
         </div>
         <div className="mt-12 flex">

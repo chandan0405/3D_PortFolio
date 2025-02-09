@@ -101,10 +101,13 @@
             />
           </Suspense>
         </Canvas>
-        <div className="absolute bottom-2 left-2 z-10 flex items-center">
+        <div className="absolute bottom-2 left-2 z-10 flex flex-col justify-start items-baseline">
+          <span className="font-bold text-3xl max-w-xs text-white bg-blue-500 p-2 rounded-lg shadow-lg animate-pulse">
+            Scroll left or Right to see the magic
+          </span>
           <img
             src={!isPlayingMusic ? soundoff : soundon}
-            className="w-10 h-10 cursor-pointer"
+            className="w-10 h-10 cursor-pointer mt-3"
             alt="music icon"
             onClick={() => setisPlayingMusic(!isPlayingMusic)}
           />

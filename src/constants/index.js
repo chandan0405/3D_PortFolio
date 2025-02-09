@@ -1,4 +1,4 @@
-import { intelli } from "../assets/images";
+import { intelli, chainscore_img } from "../assets/images";
 import {
   contact,
   css,
@@ -97,18 +97,35 @@ export const skills = [
 
 export const experiences = [
   {
+    title:"SDE-1",
+    company_name:"ChainScore Labs",
+    icon:chainscore_img,
+    iconBg:'#1BD498',
+    date: 'Nov 2024 - Present',
+    points:[
+      "Developed a fully responsive cryptocurrency platform from scratch, ensuring seamless functionality across various devices while continuously enhancing performance and features.",
+      "implemented the Home component, integrating real-time market data, coin statistics, and dynamic pricing updates using webhooks.",
+      "Built key features such as the Watchlist, Trending Gainers/Losers, coin swapping, deposit wallet functionality, and a secure 2FA authentication UI.",
+      "Enhanced data fetching efficiency by implementing dynamic API calls, improving response times, and boosting performance by 30%.",
+      "Developed server-side actions to handle real-time data for the Watchlist and trending market sections, ensuring accurate and up-to-date information.",
+      "Identified and resolved QA issues, debugging components to ensure stability, reliability, and smooth user interactions.",
+      "Focused on optimizing component performance, reducing load times, and improving query execution to enhance overall platform responsiveness"
+    ]
+  },
+  {
     title: "UI Developer",
     company_name: "Intelliswift Software Inc",
     icon: intelli,
     iconBg: "#accbe1",
-    date: "jan 2023 - present",
+    date: "jan 2023 - Aug 2024",
     points: [
       "Developing, maintaining, and testing web applications using React.js and typescript.",
       "Collaborating with cross-functional teams for the new feature development and enhancement of feature.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Testing the web application after a successful development",
     ],
-  },
+  }
+  
 ];
 
 export const socialLinks = [
