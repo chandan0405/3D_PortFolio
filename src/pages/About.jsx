@@ -5,7 +5,6 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import CTA from "../components/CTA";
 
 const About = () => {
   return (
@@ -41,7 +40,7 @@ const About = () => {
         <h3 className="subhead-text">My work Experience </h3>
         <div className="mt-5 flex flex-col gap-3 text-slate-500">
           <p>
-          Software Engineer specializing in Frontend Development and UI Development, with experience in both startups and MNCs.
+            Software Engineer specializing in Frontend Development and UI Development, with experience in both startups and MNCs.
           </p>
         </div>
         <div className="mt-12 flex">

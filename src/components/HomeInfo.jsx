@@ -20,13 +20,13 @@ const HomeInfo = ({ currentStage }) => {
       text-center neo-brutalism-blue py-4 px-8 rounded-md  text-white mx-5"
       >
         Hi, I am <span className="font-semibold">Chandan Kumar</span> 👋 <br />A
-        software Engineer
+        Full Stack Developer
       </h1>
     ),
     2: (
       <InfoBox
         text={
-          "I am currently working in a startup and have worked for an MNC too. I have a good understanding of frontend skills."
+          "I am currently employeed at Neso Academy and leading a Full stack E-learning platform."
         }
         link={"/about"}
         btnText={"Learn more"}
@@ -34,14 +34,14 @@ const HomeInfo = ({ currentStage }) => {
     ),
     3: (
       <InfoBox
-        text={"Developed many personal project "}
+        text={"Build more than 6+ personal projects using React.js, Next.js, TypeScript, Tailwind CSS, Framer Motion, and Firebase. and also worked on some client projects."}
         link={"/projects"}
         btnText={"visit portfolio"}
       />
     ),
     4: (
       <InfoBox
-        text={"Need project done or looking for UI developer?"}
+        text={"Need project done or looking for a Full Stack Developer?"}
         link={"/contact"}
         btnText={"Let's connect"}
       />

@@ -1,4 +1,4 @@
-import { intelli, chainscore_img } from "../assets/images";
+import { intelli, chainscore_img, neso } from "../assets/images";
 import {
   contact,
   css,
@@ -97,12 +97,26 @@ export const skills = [
 
 export const experiences = [
   {
-    title:"SDE-1",
-    company_name:"ChainScore Labs",
-    icon:chainscore_img,
-    iconBg:'#1BD498',
-    date: 'Nov 2024 - Present',
-    points:[
+    title: "Frontend Developer",
+    company_name: "Neso Academy",
+    icon: neso,
+    iconBg: '#840015',
+    date: 'April 2025 - Present',
+    points: [
+      "Led the development of a full-stack e-learning platform with user dashboards, a certification workflow, quiz engine, and progress tracking using Next.js, TypeScript, Tailwind CSS, Framer Motion, and Firebase.",
+      "Reduced streaming costs by 14% by migrating from VideoCipher to the YouTube IFrame API, while implementing custom progress tracking and analytics integration.",
+      "Improved performance and SEO through Next.js SSR/SSG, useSWR caching, code splitting, and lazy loading, resulting in stronger Core Web Vitals and accessibility scores measured with Lighthouse and WebPageTest.",
+      "Delivered key product features including the activity dashboard, certification workflows, personalized suggestions, saved resources library, profile management, and real-time notification preferences.",
+      "Worked in an Agile environment with designers and stakeholders to ship iterative improvements and quickly incorporate user and business feedback."
+    ]
+  },
+  {
+    title: "SDE-1",
+    company_name: "ChainScore Labs",
+    icon: chainscore_img,
+    iconBg: '#1BD498',
+    date: 'Nov 2024 - March 2025',
+    points: [
       "Developed a fully responsive cryptocurrency platform from scratch, ensuring seamless functionality across various devices while continuously enhancing performance and features.",
       "implemented the Home component, integrating real-time market data, coin statistics, and dynamic pricing updates using webhooks.",
       "Built key features such as the Watchlist, Trending Gainers/Losers, coin swapping, deposit wallet functionality, and a secure 2FA authentication UI.",
@@ -125,7 +139,7 @@ export const experiences = [
       "Testing the web application after a successful development",
     ],
   }
-  
+
 ];
 
 export const socialLinks = [
@@ -189,5 +203,5 @@ export const projects = [
       "Developing a responsive web application using React, NextJS, facilitating Authentication and Token Storage. It is similar to Netflix app ",
     link: "https://github.com/chandan0405/cinestream-web-application",
   },
-  
+
 ];
