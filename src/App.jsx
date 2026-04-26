@@ -1,6 +1,7 @@
 import React, { Suspense, lazy } from "react";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import { ToastContainer } from "react-toastify";
 
 const Home = lazy(() => import("./pages/Home"));
@@ -30,6 +31,7 @@ const App = () => {
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </Suspense>
+        <Footer />
       </Router>
       <ToastContainer />
     </main>
