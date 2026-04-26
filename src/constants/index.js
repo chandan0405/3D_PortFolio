@@ -1,4 +1,4 @@
-import { intelli, chainscore_img } from "../assets/images";
+import { intelli, chainscore_img, neso } from "../assets/images";
 import {
   contact,
   css,
@@ -18,7 +18,9 @@ import {
   search,
   movie,
   zustand,
-  jest
+  jest,
+  car,
+  annotate
 } from "../assets/icons";
 
 export const skills = [
@@ -97,12 +99,26 @@ export const skills = [
 
 export const experiences = [
   {
-    title:"SDE-1",
-    company_name:"ChainScore Labs",
-    icon:chainscore_img,
-    iconBg:'#1BD498',
-    date: 'Nov 2024 - Present',
-    points:[
+    title: "Frontend Developer",
+    company_name: "Neso Academy",
+    icon: neso,
+    iconBg: '#840015',
+    date: 'April 2025 - Present',
+    points: [
+      "Led the development of a full-stack e-learning platform with user dashboards, a certification workflow, quiz engine, and progress tracking using Next.js, TypeScript, Tailwind CSS, Framer Motion, and Firebase.",
+      "Reduced streaming costs by 14% by migrating from VideoCipher to the YouTube IFrame API, while implementing custom progress tracking and analytics integration.",
+      "Improved performance and SEO through Next.js SSR/SSG, useSWR caching, code splitting, and lazy loading, resulting in stronger Core Web Vitals and accessibility scores measured with Lighthouse and WebPageTest.",
+      "Delivered key product features including the activity dashboard, certification workflows, personalized suggestions, saved resources library, profile management, and real-time notification preferences.",
+      "Worked in an Agile environment with designers and stakeholders to ship iterative improvements and quickly incorporate user and business feedback."
+    ]
+  },
+  {
+    title: "SDE-1",
+    company_name: "ChainScore Labs",
+    icon: chainscore_img,
+    iconBg: '#1BD498',
+    date: 'Nov 2024 - March 2025',
+    points: [
       "Developed a fully responsive cryptocurrency platform from scratch, ensuring seamless functionality across various devices while continuously enhancing performance and features.",
       "implemented the Home component, integrating real-time market data, coin statistics, and dynamic pricing updates using webhooks.",
       "Built key features such as the Watchlist, Trending Gainers/Losers, coin swapping, deposit wallet functionality, and a secure 2FA authentication UI.",
@@ -125,7 +141,7 @@ export const experiences = [
       "Testing the web application after a successful development",
     ],
   }
-  
+
 ];
 
 export const socialLinks = [
@@ -148,46 +164,31 @@ export const socialLinks = [
 
 export const projects = [
   {
-    iconUrl: movie,
+    iconUrl: annotate,
     theme: "btn-back-black",
-    name: "Calories-counter-webapp",
-    description: "Developed a calories counter webapp web application using Nextjs, CSS, Bootstrap, Redux toolkit, Axios, and Edamam API.\
-    This app designed to help users track their daily caloric intake, users to search for food items, view nutritional information,\
-    and log their meals throughout the day. Users can log meals for breakfast, lunch, and dinner by selecting or searching for food items.\
-    Implements a debounced search to minimize re-rendering and API calls while typing,Persists user data across sessions, allowing for seamless tracking over time.\
-    for a seamless shopping experience.",
-    link: "https://github.com/chandan0405/calories_counter_using_Nextjs",
+    name: "PPT annotation tool",
+    description: "Native PowerPoint Integration: Uses PowerShell COM automation to launch and control slideshows directly in Microsoft PowerPoint, with seamless slide navigation from the app.\
+    Real- Time Annotation Overlay: Transparent always - on - top window enables smooth drawing and annotations over live presentations without modifying original slides.\
+    Advanced Drawing Tools: Includes pen(with smoothing & stylus pressure), shapes, eraser, color palette, and shift - based precision controls, along with undo / redo support.\
+    Per - Slide Persistence & Export: Maintains independent annotations per slide during sessions and allows exporting annotated slides as high - resolution PDFs.\
+    Robust Desktop Architecture: Built with Electron, React, TypeScript, Vite, and HTML5 Canvas, featuring auto - update support, persistent settings, and single - instance execution.\
+    ",
+    link: "https://github.com/avinav1702/PPT_Annotator",
 
   },
   {
-    iconUrl: movie,
+    iconUrl: car,
     theme: "btn-back-black",
-    name: "Shopmate",
-    description: "Developed a responsive e-commerce web application using React, Redux, Axios, and Bootstrap.\
-    The app fetches product data from an API and displays it in a card format, allowing users to view detailed \
-    product information, easily navigate, manipulate products in their cart, and use product filtering features for a seamless shopping experience.",
-    link: "https://github.com/chandan0405/shopmate_shopping_web_Application",
+    name: "Vehiqle",
+    description: "Building a Advanced AI powered car discovery system with smart filters (make, model, price range, etc.) and intelligent recommendations for similar vehicles.\
+    High- quality image galleries and an interactive EMI calculator to help users make informed financial decisions.\
+    Seamless connection with dealerships and automotive partners for real - time availability, test drive booking, and callbacks.\
+    Powerful admin dashboard featuring analytics, full inventory management, and user / test drive tracking.\
+    AI - powered car detail extraction from uploaded images, reducing manual data entry, combined with a fully responsive and modern user interface.\
+  ",
+    link: "https://github.com/chandan0405/vehiqle",
 
   },
-  {
-    iconUrl: search,
-    theme: "btn-back-blue",
-    name: "Anime searching web Application",
-    description:
-      "I designed and developed a responsive web app using React for searching anime.\
-       The app fetches data from an API based on user input, incorporates pagination for efficiency, \
-       and uses a debouncing mechanism to minimize network requests. It works seamlessly across all devices \
-       and highlights the best matching anime based on user searches."
-    ,
-    link: "https://github.com/chandan0405/anime-search-application",
-  },
-  {
-    iconUrl: movie,
-    theme: "btn-back-black",
-    name: "CineStream streaming website",
-    description:
-      "Developing a responsive web application using React, NextJS, facilitating Authentication and Token Storage. It is similar to Netflix app ",
-    link: "https://github.com/chandan0405/cinestream-web-application",
-  },
-  
+
+
 ];

@@ -30,6 +30,7 @@ import search from './search.svg'
 import movie from './movieicon.svg'
 import zustand from "./zustand.svg";
 import jest from "./Jest.svg";
+import annotate from "./annotate.png";
 
 export {
   css,
@@ -64,4 +65,5 @@ export {
   soundoff,
   search,
   movie,
+  annotate,
 };

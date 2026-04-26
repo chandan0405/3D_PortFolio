@@ -2,7 +2,6 @@ import React from "react";
 import { projects } from "../constants";
 import { Link } from "react-router-dom";
 import { arrow } from "../assets/icons";
-import CTA from "../components/CTA";
 const Projects = () => {
   return (
     <section className="max-container">
@@ -12,11 +11,8 @@ const Projects = () => {
       </h1>
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
-          I have extensive experience in developing user interface applications
-          for various purposes, including replicating movie applications,
-          creating online exam platforms, and building online photo fetching
-          tools. Additionally, I have successfully delivered projects for
-          clients. Here are some highlights of my significant projects:
+          I have 3+ years of experience in developing web applications using React.js, Next.js, TypeScript, Tailwind CSS, Framer Motion, and Firebase. and also worked on some client projects.
+          I have build many personal projects but here are some of my highlighted projects:
         </p>
       </div>
       <div className="flex flex-wrap my-20 gap-16">
