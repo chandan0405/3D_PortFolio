@@ -27,7 +27,7 @@ const socialLinks = [
   },
   {
     name: "LeetCode",
-    href: "https://leetcode.com/",
+    href: "https://leetcode.com/u/chik_004/",
     icon: (
       <svg viewBox="0 0 24 24" aria-hidden="true" className="w-5 h-5 fill-current">
         <path d="M13.48 3.567a1.2 1.2 0 0 1 1.695 0l4.258 4.259a1.2 1.2 0 1 1-1.697 1.697l-3.41-3.41-8.06 8.06a1.2 1.2 0 0 0 0 1.697l3.38 3.38a1.2 1.2 0 1 1-1.697 1.697l-3.38-3.38a3.6 3.6 0 0 1 0-5.09l8.909-8.91z" />
@@ -37,7 +37,7 @@ const socialLinks = [
   },
   {
     name: "Instagram",
-    href: "https://instagram.com/",
+    href: "https://instagram.com/chandan_0405",
     icon: (
       <svg viewBox="0 0 24 24" aria-hidden="true" className="w-5 h-5 fill-current">
         <path d="M7.8 2h8.4A5.8 5.8 0 0 1 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8A5.8 5.8 0 0 1 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2zm0 2.2A3.6 3.6 0 0 0 4.2 7.8v8.4a3.6 3.6 0 0 0 3.6 3.6h8.4a3.6 3.6 0 0 0 3.6-3.6V7.8a3.6 3.6 0 0 0-3.6-3.6H7.8z" />
